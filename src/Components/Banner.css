@@ -1,0 +1,35 @@
+* {
+    height: 400;
+}
+
+.banner--main {
+    background-image: url("../assets/banner2.jpg");
+    height: 400;
+    display: flex;
+    flex-direction: column;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    justify-content: space-around;
+}
+
+/* .banner--tagline {
+    font-size: xx-large;
+    margin-bottom: 10px;
+    font-family: 'Montserrat';
+    height: 40%;
+} */
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.banner--text,text  {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    padding-top: 15px;
+    color: darkgray;
+}
+

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:ital,wght@0,300;0,400;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+
+}
+
+.App {
+    background-color: #14161a;
+    color: white;
+    min-height: 100vh;
+}
+
+.nav--text {
+    color: gold;
+    padding: 15px 10px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-family: "Montserrat";
+    flex: 1;
+    cursor: pointer;
+  } 
+
+  .nav--currency {
+    background-color: transparent;
+    position: absolute;
+    border-radius: 3px;
+    width: 85px;
+    height: 40px;
+    /* margin-left: 15px; */
+    right: 125px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  }
+
+  .nav--main {
+    background-color: rgba(0, 0, 0, 0.622);
+    color: rgb(226, 191, 18);
+  }
+
+.responsive-div {
+  @media only screen and (max-width: 767px) {
+    /* Styles for mobile devices */
+    .responsive-div {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* Styles for desktop devices */
+    .responsive-div {
+      width: 70%;
+    }
+  }
+}  
+
+.responsive-sidebar{
+  @media only screen and (max-width: 767px) {
+    /* Styles for mobile devices */
+    .responsive-div {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* Styles for desktop devices */
+    .responsive-div {
+      width: 30%;
+    }
+  }
+} 
+  
